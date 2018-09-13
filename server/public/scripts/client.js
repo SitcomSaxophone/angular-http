@@ -1,7 +1,7 @@
-let myApp = angular.module('MyApp', []);
+const myApp = angular.module('MyApp', []);
 
-myApp.controller('HttpController', function () {
+myApp.controller('HttpController', [function () {
     let self = this;
 
     self.message = 'Hello';
-})
+}])
